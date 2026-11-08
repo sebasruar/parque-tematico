@@ -1,0 +1,1 @@
+"""Sistema de gestión de un parque temático (Programación Orientada a Objetos)."""
