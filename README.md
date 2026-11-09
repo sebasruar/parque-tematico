@@ -2,7 +2,7 @@
 
 Proyecto final de Programación Orientada a Objetos en Python.
 
-**Autor:** JOHAN SEBASTIAN ARDILA RUEDA  |  **Materia:** Programación 1  |
+**Autor:** JOHAN SEBASTIAN ARDILA RUEDA | **Curso:** Programación 1
 
 ## Problema que resuelve
 Controla quién puede usar cada atracción de un parque temático y cuánto debe pagar: vende entradas (General y VIP), valida la estatura mínima, controla el cupo de cada atracción, cobra con el saldo de la manilla del visitante y maneja las situaciones anormales con excepciones propias.
@@ -10,18 +10,25 @@ Controla quién puede usar cada atracción de un parque temático y cuánto debe
 ## Cómo ejecutarlo
 Requiere Python 3.8 o superior. No usa librerías externas.
 
-```bash
-python main.py
+Abre la terminal y escribe: `python main.py`
 
-main.py                          Programa principal (casos normales y excepcionales)
-parque_tematico/
-    excepciones.py               ParqueError + 5 excepciones personalizadas
-    visitante.py                 Clase Visitante
-    entrada.py                   Clase Entrada
-    control_acceso.py            Clase ControlAcceso (parte de Atraccion)
-    atracciones.py               Atraccion (abstracta), MontanaRusa, AtraccionAcuatica, JuegoInfantil
-    parque.py                    Clase Parque
-docs/
-    diagrama_uml.png / .md       Diagrama UML de clases
-    Documento_Decisiones_Diseno.md   Documento de decisiones de diseño
-    Explicacion_del_proyecto.md      Explicación detallada
+## Estructura del proyecto
+
+- main.py (Programa principal)
+- parque_tematico/ (Clases del sistema)
+    - excepciones.py (Excepciones personalizadas)
+    - visitante.py (Clase Visitante)
+    - entrada.py (Clase Entrada)
+    - control_acceso.py (Clase ControlAcceso)
+    - atracciones.py (Clase abstracta Atraccion y sus 3 hijas)
+    - parque.py (Clase Parque)
+- docs/ (Documentación)
+    - diagrama_uml.png / .md (Diagrama UML)
+    - Documento_Decisiones_Diseno.md (Decisiones de diseño)
+    - Explicacion_del_proyecto.md (Explicación detallada)
+- README.md (Este archivo)
+
+## Documentación
+- [Diagrama UML de clases](docs/diagrama_uml.md)
+- [Documento de decisiones de diseño](docs/Documento_Decisiones_Diseno.md)
+- [Explicación detallada del proyecto](docs/Explicacion_del_proyecto.md)
